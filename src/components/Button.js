@@ -1,10 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-function button({ color, text }) {
-  const onClick = () => {
-    console.log("Hi");
-  };
+function button({ color, text, onClick }) {
   return (
     <button
       onClick={onClick}
@@ -18,7 +15,6 @@ function button({ color, text }) {
 
 button.defaultProps = {
   color: "blue",
-  text: "Register",
 };
 button.propTypes = {
   text: PropTypes.string,
