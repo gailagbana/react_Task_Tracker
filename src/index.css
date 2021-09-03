@@ -15,7 +15,7 @@ body {
   border: 1px solid blue;
   border-radius: 5px;
   padding: 30px 30px;
-  background-image: url("./components/darkBackground.jpeg");
+  background-image: url("./assets/images/darkBackground.jpeg");
 }
 .header {
   display: flex;
@@ -24,7 +24,7 @@ body {
   align-items: center;
   margin-bottom: 40px;
 }
-.heading {
+.header h1 {
   color: white;
 }
 .btn {

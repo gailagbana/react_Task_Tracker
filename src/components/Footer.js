@@ -1,18 +1,12 @@
-import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-const Footer = ({ foot }) => {
+const Footer = () => {
   return (
     <footer className="footer">
-      <h1 className="heading">{foot}</h1>
+      <p>Copyright &copy; 2021</p>
+      <Link to="/about">About</Link>
     </footer>
   );
-};
-
-Footer.defaultProps = {
-  foot: "",
-};
-Footer.propTypes = {
-  foot: PropTypes.string.isRequired,
 };
 
 export default Footer;
